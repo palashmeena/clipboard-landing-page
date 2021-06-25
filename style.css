@@ -1,0 +1,192 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    align-items: center;
+}
+h1,h2,h4,h6{
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+h1{
+    padding-top: 50px;
+}
+h2
+{
+    padding-bottom: 20px;
+}
+h4
+{
+    padding: 30px 0 10px;
+}
+h6
+{
+    font-weight: 400;
+}
+p{
+    color: hsl(201, 11%, 66%);
+}
+/* Header */
+.btn 
+{
+    border-radius: 25px;
+    margin: 20px 10px;
+    width: 100%;
+    display: inline;
+}
+.btn-secondary.ios {
+    color: #fff;
+    background-color: hsl(171, 66%, 44%);
+    border-color: hsl(171, 66%, 44%);
+}
+.btn.ios:hover,.btn.ios:active,.btn.ios:checked,.btn.ios:focus
+{
+    color: #fff;
+    background-color: hsl(171, 66%, 50%);
+    border-color: hsl(171, 66%, 50%);
+    box-shadow: 0 0 0 0.25rem hsl(171, 66%, 50%);
+}
+.btn-secondary.mac {
+    color: #fff;
+    background-color: hsl(233, 100%, 69%);
+    border-color: hsl(233, 100%, 69%);
+}
+.btn.mac:hover,.btn.mac:active,.btn.mac:checked,.btn.mac:focus
+{
+    color: #fff;
+    background-color: hsl(233, 100%, 75%);
+    border-color: hsl(233, 100%, 75%);
+    box-shadow: 0 0 0 0.25rem hsl(233, 100%, 75%);
+}
+.header
+{
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header .container
+{
+    padding: 5% 0;
+    width: 55%;
+    
+}
+/* Keep Track */
+.keep-track .container , .access .container , .supercharge .container
+{
+    width: 55%;
+    padding: 5% 0;
+}
+.computer-m
+{
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+}
+.keep-titles
+{
+    text-align: left;
+    padding: 50px ;
+}
+
+/* access */
+.access .container
+{
+    padding: 10% 0 5%;
+}
+img.devices
+{
+    width: 70%;
+}
+
+/* Supercharge */
+.supercahrge-m
+{
+    width: 90%;
+}
+.icons
+{
+    height: 44px;
+}
+
+/* Companies */
+.container.companies
+{
+    width: 90%;
+    padding: 150px 0;
+}
+.company-logos
+{
+    padding: 25px 0;
+}
+
+
+/* Footer */
+footer
+{
+    background-color: #f6f7f9;
+    margin: 10% auto 0;
+    text-align: center;
+    padding-top: 50px;
+}
+.footer-logo
+{
+    width: 80px;
+    margin: 0 auto 20px;
+}
+.footer-content
+{
+    display: flex;
+}
+
+.links
+{
+    text-align: center;
+}
+.social-media-icons
+{
+    padding: 10px;
+}
+
+
+
+
+
+@media (max-width:1044px)
+{
+    .computer-m
+    {
+        display: inline;
+    }
+    .keep-titles
+{
+    text-align: center;
+}
+img.computer
+{
+    width: 70%;
+}
+.icon-m
+{
+    padding: 5%;
+}
+
+}
+
+
+@media (max-width: 575px)
+{
+    .header
+{
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header .container ,.keep-track .container , .access .container , .supercharge .container , .clip-board .container
+{
+    width: 80%;
+    padding: 5% 0;
+}
+}
